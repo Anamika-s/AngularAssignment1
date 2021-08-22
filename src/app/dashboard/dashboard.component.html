@@ -1,0 +1,9 @@
+<div>
+  <div *ngIf="newsList != undefined && newsList.length > 0;else elsePart">
+    <div *ngFor="let newsItem of newsList">
+      <app-card [newsItem]="newsItem"></app-card>
+  </div>
+  </div>
+  <ng-template #elsePart></ng-template>
+  <div>No news</div>
+</div>

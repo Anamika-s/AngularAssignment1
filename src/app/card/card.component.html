@@ -1,0 +1,21 @@
+
+  <mat-card class="example-card"><mat-card class="example-card">
+    <mat-card-header>
+     <mat-card-title>{{newsItem.title}}
+     <p>ID: {{newsItem.id}}</p></mat-card-title>
+     <mat-card-subtitle>Published: {{newsItem.publishedAt | date:'medium'}}</mat-card-subtitle>
+   </mat-card-header><br>
+    <img mat-card-image src={{newsItem.urlToImage}}/><br>
+   <mat-card-content>
+   Author: {{newsItem.author}}<br>
+   <p  *ngIf="newsItem.source != null && newsItem.source.name != null" >Source: {{newsItem.source.name}}</p><br>
+    <p>{{newsItem.description}}</p>
+   </mat-card-content>
+  </mat-card>
+   <mat-card-actions>
+     <button mat-raised-button (click)="addReadLater(newsItem)">Read Later</button>
+    </mat-card-actions>
+    <div *ngIf="confirmationMessage !== ''">
+        {{confirmationMessage}}
+    </div></mat-card>
+

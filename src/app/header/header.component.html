@@ -1,0 +1,28 @@
+<nav class='navbar'>
+  <div>
+   <a class="navbar-brand">
+     <img src='../../assets/images/logo.png' width='150px'>
+      <div>{{title}}</div>
+   </a>
+   <button type="button" data-target="#nToggle" (click)="togCollapse()"></button>
+  </div>
+  <div class="collapse" id="nToggle">
+    <ul>
+      <li>
+        <a href="#Home">
+          <mat-icon aria-label="Home">home</mat-icon>
+        </a>
+      </li>
+      <li>
+        <a href="#Favourites">
+          <mat-icon aria-label="Favorites">favorite</mat-icon>
+        </a>
+      </li>
+      <li>
+        <a href="#Search">
+          <mat-icon aria-label="Search">search</mat-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
