@@ -15,7 +15,7 @@ public errorMessage = '';
 
   ngOnInit() {
   }
-addReadLater(newsItem) {
+  addReadLater(newsItem) {
 this.newsService.addNews(newsItem)
 .subscribe(res => {
   if (res) {
