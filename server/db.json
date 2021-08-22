@@ -97,6 +97,48 @@
       "publishedAt": "2020-10-03T16:12:00Z",
       "content": "Salman Khan returned as host for the popular reality show Bigg Boss 14 with a fresh list of contestants that includes faces such as TV couple Rubina Dilaik and Abhinav Shukla, actor Eijaz Khan, Baalv… [+9340 chars]",
       "id": 7
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "TIMESOFINDIA.COM",
+      "title": "'My COVID Story: I was asked to get admitted but a change of prescription helped me greatly' - Times of India",
+      "description": "This is when everything was shaken back as I felt miserable watching my favourite TV show, cooking my long desired",
+      "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/my-covid-story-i-was-asked-to-get-admitted-but-a-change-of-prescription-helped-me-greatly/articleshow/85531203.cms",
+      "urlToImage": "https://static.toiimg.com/thumb/msid-85531232,width-1070,height-580,overlay-toi_sw,pt-32,y_pad-40,resizemode-75,imgsize-22440/85531232.jpg",
+      "publishedAt": "2021-08-22T13:30:00Z",
+      "content": "34-year-old Priyanki Debroy kept thinking that her body aches and fatigue was due to her stressful work routine until she was told that a few people she met at a farewell party recently had tested po… [+6136 chars]",
+      "id": 8
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "TIMESOFINDIA.COM",
+      "title": "'My COVID Story: I was asked to get admitted but a change of prescription helped me greatly' - Times of India",
+      "description": "This is when everything was shaken back as I felt miserable watching my favourite TV show, cooking my long desired",
+      "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/my-covid-story-i-was-asked-to-get-admitted-but-a-change-of-prescription-helped-me-greatly/articleshow/85531203.cms",
+      "urlToImage": "https://static.toiimg.com/thumb/msid-85531232,width-1070,height-580,overlay-toi_sw,pt-32,y_pad-40,resizemode-75,imgsize-22440/85531232.jpg",
+      "publishedAt": "2021-08-22T13:30:00Z",
+      "content": "34-year-old Priyanki Debroy kept thinking that her body aches and fatigue was due to her stressful work routine until she was told that a few people she met at a farewell party recently had tested po… [+6136 chars]",
+      "id": 9
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hindustan Times"
+      },
+      "author": "Zia Haq",
+      "title": "Palm-oil plan for Andamans came after many steps to skirt legal hurdles - Hindustan Times",
+      "description": "India’s quest to increase oil palm isn’t new. A broad policy push came with the Special Programme on Oil Palm Area Expansion between 2011-12 and 2014-15. During the erstwhile 10th and 11th plan periods, the government also ran a programme called ISOPOM, or th…",
+      "url": "https://www.hindustantimes.com/india-news/palmoil-plan-for-andamans-came-after-many-steps-to-skirt-legal-hurdles-101629637037708.html",
+      "urlToImage": "https://images.hindustantimes.com/img/2021/08/22/1600x900/9a3d2c28-0347-11ec-a9e6-af764bf61cc2_1629637036703.jpg",
+      "publishedAt": "2021-08-22T12:57:17Z",
+      "content": "The Modi Cabinets decision last week to promote environmentally ruinous oil-palm plantations in the Andamans has been a long time in the making and came on the heels of a go-ahead contained in a scie… [+4760 chars]",
+      "id": 10
     }
   ]
 }
