@@ -16,6 +16,7 @@
      <button mat-raised-button (click)="addReadLater(newsItem)">Read Later</button>
     </mat-card-actions>
     <div *ngIf="confirmationMessage !== ''">
-        {{confirmationMessage}}
+    <small>{{confirmationMessage}}</small>
+        
     </div></mat-card>
 
