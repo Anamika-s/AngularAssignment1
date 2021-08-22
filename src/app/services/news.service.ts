@@ -1,24 +1,25 @@
 import { Injectable } from '@angular/core';
 import { News } from '../models/news';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
-
-//decorate class to make it injectable
+@Injectable()//decorate class to make it injectable
 export class NewsService {
-
-  //assign the apikey generated to access APIs of newsapi.org to api_key property
-  //steps to generate apikey are available in README.md file
-  api_key:string = "<your-api-key>";
+    path: string="https://newsapi.org/v2/top-headlines?country=in&apikey=";
+  api_key:string = "0819eaed65a043a481d5354c8782b578";
+  
+  public bmurl='http://localhost:3000/api/v1/news';
 
   // inject the HttpClient dependency that will be used to make http request
-  constructor() { }
+ constructor(private httpClient: HttpClient) { }
 
 
   public getTrendingNews(){
-    //this function should make a get request to fetch trending news provided by newsapi.org
+    return this.httpClient.get(this.trending_news_api_url);//this function should make a get request to fetch trending news provided by newsapi.org
   }
 
-  public addNews(newsItem:News){
-    //this function should make a post request to save news item to db.json in server
+  public addNews(newsItem:News): Observable<News> {
+   return this.httpClient.post<News>(this.bmurl,newsItem);//this function should make a post request to save news item to db.json in server
   }
 
 
